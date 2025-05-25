@@ -2,3 +2,4 @@ beautifulsoup4
 aiohttp
 firebase-admin
 python-telegram-bot
+pytz
