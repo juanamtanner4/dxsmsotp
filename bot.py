@@ -36,7 +36,7 @@ numbers_ranges_ref = db.reference('numbers_ranges')
 seen_sms_ref = db.reference('seen_sms')
 
 # Telegram bot setup
-BOT_TOKEN = "7735025169:AAGIrr4OlRm0Yv0fIyri6hvsUH-znBtREeo"
+BOT_TOKEN = "7735025169:AAEdLX3zxwIRQ_TKer5DolAIovWCDTZR0Ng"
 CHAT_ID = "-1002639503570"
 ADMIN_CHAT_ID = "-1002639503570"
 ADMIN_USER_IDS = [849641986]
