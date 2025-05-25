@@ -1,4 +1,5 @@
 aiohttp
 firebase-admin
 python-telegram-bot
+beautifulsoup4
 
