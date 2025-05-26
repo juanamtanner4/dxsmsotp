@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Firebase setup
-cred = credentials.Certificate("smsotp-f8aa7-firebase-adminsdk-fbsvc-e064ae7e59.json")
+cred = credentials.Certificate("smsotp-f8aa7-firebase-adminsdk-fbsvc-edf7c62e28.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://smsotp-f8aa7-default-rtdb.firebaseio.com'
 })
