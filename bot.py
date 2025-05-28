@@ -1412,7 +1412,7 @@ async def handle_bot_updates(update, session, csrf_token):
                     caption=caption,
                     parse_mode="Markdown"
                 )
-                asyncio.create_task(auto_delete_message(chat_id, sent_message.message_id, 120))
+                asyncio.create_task(auto_delete_message(chat_id, sent_message.message_id, 18000))
                 await query.answer("✅ TXT file downloaded!")
                 logger.info(f"Sent TXT file for range: {range_name}, Count: {len(numbers)}")
 
